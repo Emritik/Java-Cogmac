@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="javax.json-api-1.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/libs/javax.json-api-1.1.jar!/"/>
+	</lib>
+	<lib name="gson-2.13.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/libs/gson-2.13.1.jar!/"/>
+	</lib>
+	<levels>
+		<level name="javax.json-api-1.1-javadoc" value="project"/>
+		<level name="javax.json-api-1.1-sources" value="project"/>
+		<level name="javax.json-api-1.1" value="project"/>
+	</levels>
+</component>
