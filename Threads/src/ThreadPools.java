@@ -14,8 +14,8 @@ class Task implements Runnable {
         try{
 
             for(int i = 0; i <= 5; i++){
-
                 if(i == 0){
+
                     Date d = new Date();
                     SimpleDateFormat ft = new SimpleDateFormat("hh:mm:ss");
                     System.out.println("Initialization Time for task name - " + name + " " + ft.format(d));                }
